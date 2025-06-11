@@ -10,7 +10,7 @@ This project classifies consumer complaints into categories like Credit Reportin
 We start by loading the dataset and visualizing the class distribution.
 
 📸 Screenshot:
-![EDA Screenshot](screenshot_1.jpg)
+![EDA Screenshot](step-1.jpg)
 
 ---
 
@@ -22,7 +22,7 @@ Each complaint is:
 - Tokenized and cleaned of stopwords
 
 📸 Screenshot:
-![Preprocessing Screenshot](screenshot_2.jpg)
+![Preprocessing Screenshot](step-2.jpg)
 
 ---
 
@@ -31,7 +31,7 @@ Each complaint is:
 We convert clean text into numerical features using TF-IDF with a vocabulary size of 5000.
 
 📸 Screenshot:
-![TF-IDF Screenshot](screenshot_3.jpg)
+![TF-IDF Screenshot](step-3.jpg)
 
 ---
 
@@ -43,7 +43,7 @@ We train three models:
 - Linear SVM
 
 📸 Screenshot:
-![Model Accuracy Screenshot](screenshot_4.jpg)
+![Model Accuracy Screenshot](step-4.jpg)
 
 ---
 
@@ -54,7 +54,7 @@ We evaluate the best model (Linear SVM) using:
 - Confusion matrix
 
 📸 Screenshot:
-![Confusion Matrix Screenshot](screenshot_5.jpg)
+![Confusion Matrix Screenshot](step-5.jpg)
 
 ---
 
@@ -64,7 +64,7 @@ We predict a sample complaint:
 > "There is a hard inquiry I didn’t authorize."
 
 📸 Screenshot:
-![Prediction Screenshot](screenshot_6.jpg)
+![Prediction Screenshot](step-6.jpg)
 
 ---
 
